@@ -156,3 +156,6 @@ height: 30px;
 top: 5px;
 right: 15px;
 }
+#barSearch span:hover{
+    cursor:pointer;
+}
