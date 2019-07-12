@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff
+}
+a,a:visited{
+    text-decoration: none;
+    color: #777;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    height: 30px;
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    box-sizing: border-box;
+  
+}
+#tete div{
+    float:left;
+    margin: 0 10px;
+    box-sizing: border-box;
+        line-height: 26px;
+ }
+#pic{
+    background-image: url('belmadi.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 26px;
+    height:26px;
+}
+#app{
+   
+    position : relative;
+
+}
+.ap{
+    background-image: url('Untitled-1.png');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 17px;
+    height: 17px;
+    text-decoration: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align : middle;
+}
+.ap:hover{
+    background-image: url('Untitled-2.png');
+    transition: .1s;
+}
+#tete{
+    vertical-align: middle;
+    float:right;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+main{
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+
+}
+#barSearch{
+    position: relative;
+        height: 40px;
+width: 50%;
+margin: 20px auto 20px auto;
+}
+#barSearch input{
+border: 1px solid #dfe1e5;
+height: 100%;
+width: 100%;
+border-radius: 20px;
+outline-style: none;
+padding:  0 30px;
+box-sizing: border-box;
+}
+#barSearch input:focus,#barSearch input:hover{
+    box-shadow: 0 1px 5px 1px #c6c6c6;
+    transition: .1s;
+    
+}
+
+.sear{
+    padding: 10px 15px;
+    border: none;
+    background: #eee;
+    color: #777;
+    margin: 5px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+.sear:hover{
+    color: #000;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+}
+#footSearch{
+    margin: 20px ;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#eee;
+    color: #777;
+}
+#locat{
+border: 1px solid #ccc;
+}
+#locat h5{
+    padding: 10px 40px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+#links ul li{
+    display:inline-block;
+    margin: 0 3px;
+}
+#links ul:nth-child(1){
+    float: left;
+    margin-left: 30px;
+}
+#links ul:nth-child(2){
+    float: right;
+    margin-right: 20px;
+}
+#links ul li a{
+    text-decoration: none;
+    color: #777;
+    display: block;
+    padding: 10px
+}
+#links ul li a:hover{
+text-decoration: underline;
+}
+#barSearch span{
+position: absolute;
+background-image: url('vocal.png');
+background-position: center;
+background-size: cover;
+display: block;
+width: 20px;
+height: 30px;
+top: 5px;
+right: 15px;
+}
